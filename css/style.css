@@ -1,0 +1,509 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**************************************start css***************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/**************************************header***************************/
+
+header{
+    width: 100%;
+    height: 200px;
+    background: #84a9ac;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+}
+
+nav .logo {
+    margin-top: 5px;
+    float: left;
+}
+
+nav .logo h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #523009;
+}
+
+/**************************menubar************************************/
+
+nav ul {
+    margin-top: 10px;
+    float: right;
+}   
+
+
+nav ul li {
+    float: left;
+    margin-left: 50px;
+
+}
+
+
+nav ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #523009;
+    transition: all 0.5s;
+}
+
+
+nav ul li a:hover {
+    text-transform: uppercase;
+    background: #aeddec;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/**************************content************************************/
+.content {
+    max-width: 100%;
+    height: auto;
+    background: #ced3d0;
+    overflow: hidden;
+}
+
+.content-heading {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ), url("/img/logo/พื้นหลัง08.jpg");
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content-heading{
+    position: relative;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    text-align: left;
+    color: #333333;
+}
+
+.text-wrapper{
+    background: rgb(255, 255, 255,0.7);
+    padding: 2rem;
+    margin: 2rem;
+    
+}
+
+.content-heading h1{
+    font-size: 25px;
+    margin: 10px;
+    color: #333333;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.content-heading p {
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.content-heading a {
+    font-size: 16px;
+    margin-left: 900px;
+}
+
+/**************************content-second************************************/
+
+.content-second{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.content-second h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+
+.content-second h6 {
+    font-size: 16px;
+    margin-left: 900px;
+}
+
+
+.content-second-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    grid-gap: 1rem;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.content-second-item img {
+    width: 100%;
+}
+
+.content-second-item{
+    border: 1px solid #979797;
+    padding: 20px;
+    background-color: whitesmoke; 
+}
+
+.content-second-item h4{
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 20px 0;
+}
+
+/**************************content-tird************************************/
+
+.content-tird{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.content-tird h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+
+.content-tird h6 {
+    font-size: 16px;
+    margin-left: 900px;
+}
+
+
+.content-tird-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    grid-gap: 1rem;
+    margin-bottom: 20px; 
+    width: 100%;
+}
+
+.content-tird-item img {
+    width: 100%;
+}
+
+.content-tird-item{
+    border: 1px solid #979797;
+    padding: 20px;
+    background-color: whitesmoke; 
+}
+
+.content-tird-item h5{
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 20px 0;
+}
+
+/**************************content-fourth************************************/
+
+.content-fourth{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.content-fourth h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.content-fourth-grid{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    text-align: center;
+    grid-gap: 1rem;
+    border: 1px solid #979797;
+    padding: 20px;
+    background-color: whitesmoke;   
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.content-fourth-grid h6 {
+    font-size: 19px;
+    margin-left: 900px;
+}
+
+
+.content-fourth-item h4{
+    margin: 20px 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+    margin: center;
+}
+
+
+/**************************content-fifth************************************/
+
+.content-fifth{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.content-fifth h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.content-fifth-grid{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    text-align: center;
+    grid-gap: 1rem;
+    border: 1px solid #979797;
+    padding: 20px;
+    background-color: whitesmoke;   
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.content-fifth-grid h6 {
+    font-size: 19px;
+    margin-left: 900px;
+}
+
+.content-fifth-item h4{
+    margin: 20px 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+}
+
+/**************************footer************************************/
+
+footer {
+    width: 100%;
+    height: 150px;
+    background: #84a9ac;
+    overflow: hidden;
+}
+
+
+.footer ul {
+    margin-left: 370px;
+    margin-top: 20px;
+    float: center;
+}   
+
+
+
+footer ul li {
+    float: left;
+    margin-left: 70px;
+
+}
+
+footer ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #523009;
+    transition: all 0.5s;
+}
+
+
+footer ul li a:hover {
+    text-transform: uppercase;
+    background: #aeddec;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.copyright {
+    margin-top: 60px;
+    float: left;
+
+}
+
+.copyright p {
+    font-size: 19;
+    color: beige;
+    margin-left: 750px;
+}
+
+/**************************end footer************************************/
+
+
+/**************************Start login************************************/
+
+.login_area {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    border-style: solid;
+}
+.login-box{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 2px solid #082194;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    background: #82a574;
+}
+
+.login-box h3{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+    color: #6e3838;
+    border-bottom:  2px solid #ddd2d2;
+}
+
+.textbox{
+    margin: 10px 10px 0 0;
+    padding: 5px;
+}
+
+.textbox label{
+    font-size: 26;
+    font-weight: 600;
+    text-align: center;
+}
+
+.textbox input {
+    margin-left: 10px;
+    padding: 4px;
+    border: 1.5px solid #333333;
+}
+
+.input-group{
+    margin: 10px 0px 10px 0px;
+
+}
+
+.input-gorup label {
+    display: inline;
+    text-align: center;
+    margin: 3px;
+    background: steelblue;
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 110, 221);
+    
+}
+
+.btn {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background: #85beb7;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textremind{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: rgb(128, 20, 1);
+}
+
+/**************************End login************************************/
+
+/**************************Start Document************************************/
