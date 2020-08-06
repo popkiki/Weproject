@@ -506,3 +506,39 @@ footer ul li a:hover {
 
 /**************************end login************************************/
 
+/**************************start Document************************************/
+.menu_document {
+    list-style-type: none;
+    margin: 20px 25px 20px 5px;
+    padding: 0;
+}
+.menubar{
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    border: 1px solid #555;
+}
+.menudoctitle{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menudocdata {
+    margin: 0;
+    padding: 0;
+}
+.menudocdata ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menudocdata li {
+    text-align: center;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+.menudocdata li:last-child {
+    border-bottom: none;
+}
