@@ -511,11 +511,13 @@ footer ul li a:hover {
     list-style-type: none;
     margin: 20px 25px 20px 5px;
     padding: 0;
+    float: left;
 }
 .menubar{
     margin: 0;
     padding: 0;
-    width: 15%;
+    height: 100%;
+    width: 150%;
     border: 1px solid #555;
 }
 .menudoctitle{
@@ -534,7 +536,7 @@ footer ul li a:hover {
 }
 
 .menudocdata li {
-    text-align: center;
+    text-align: justify;
     border-top: 1px solid #555;
     border-bottom: 1px solid #555;
 }
@@ -542,3 +544,4 @@ footer ul li a:hover {
 .menudocdata li:last-child {
     border-bottom: none;
 }
+/**************************end Document************************************/

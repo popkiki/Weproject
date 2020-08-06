@@ -1,4 +1,23 @@
 .content-doc {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+}
+.container-doc {
+    margin: 0;
+    margin-left: 25px;
+}
+.content-doc-main {
+    margin: 0 auto;
+    padding: 0;
+}
+.content-doc-main h2 {
+    margin: 0 auto;
+    padding: 0;
+}
+.content-doc-main p {
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+
+
 }
